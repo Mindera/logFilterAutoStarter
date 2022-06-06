@@ -18,7 +18,7 @@ public class LogLibraryAutoConfiguration {
 
         registrationBean.setFilter(new RequestResponseLoggingFilter());
         registrationBean.addUrlPatterns("/*");
-        registrationBean.setOrder(2);
+        registrationBean.setOrder(1);
 
         return registrationBean;
     }

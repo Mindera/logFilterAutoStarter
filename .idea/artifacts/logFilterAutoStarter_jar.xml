@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="logFilterAutoStarter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/logFilterAutoStarter_jar</output-path>
+    <root id="archive" name="logFilterAutoStarter.jar">
+      <element id="module-output" name="logFilterAutoStarter" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.20/spring-beans-5.3.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.20/spring-expression-5.3.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.6.9-SNAPSHOT/spring-boot-autoconfigure-2.6.9-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../logFilter/out/artifacts/logfilter_jar/logfilter.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.6.9-SNAPSHOT/spring-boot-2.6.9-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.20/spring-context-5.3.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.20/spring-aop-5.3.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.20/spring-core-5.3.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.20/spring-jcl-5.3.20.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
