@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="logstarter" />
-        <module name="logFilterAutoStarter" />
+        <module name="logStarter" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="logFilterAutoStarter" options="-parameters" />
+      <module name="logStarter" options="-parameters" />
       <module name="logstarter" options="-parameters" />
     </option>
   </component>
