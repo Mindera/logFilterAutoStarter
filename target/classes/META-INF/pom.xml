@@ -23,7 +23,7 @@
         </dependency>
 
         <dependency>
-            <groupId>mindera.solverde</groupId>
+            <groupId>mindera</groupId>
             <artifactId>logstarter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

@@ -1,6 +1,5 @@
 package mindera.logstarter;
 
-
 import mindera.logfilter.service.RequestResponseLoggingFilter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -19,7 +18,7 @@ public class LogLibraryAutoConfiguration {
 
         registrationBean.setFilter(new RequestResponseLoggingFilter());
         registrationBean.addUrlPatterns("/*");
-        registrationBean.setOrder(2);
+        registrationBean.setOrder(1);
 
         return registrationBean;
     }
