@@ -10,7 +10,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>mindera.solverde</groupId>
+	<groupId>mindera</groupId>
 	<artifactId>logstarter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>logstarter</name>
