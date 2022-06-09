@@ -1,3 +1,6 @@
+//Copyright 2022 Mindera
+//SPDX-License-Identifier: Apache-2.0
+
 package mindera.logstarter;
 
 import mindera.logfilter.service.RequestResponseLoggingFilter;
