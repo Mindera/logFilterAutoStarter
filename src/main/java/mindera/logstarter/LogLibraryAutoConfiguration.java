@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnClass(RequestResponseLoggingFilter.class)gis
+@ConditionalOnClass(RequestResponseLoggingFilter.class)
 public class LogLibraryAutoConfiguration {
 
     @Bean
