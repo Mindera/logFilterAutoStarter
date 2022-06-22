@@ -13,7 +13,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="logStarter" options="-parameters" />
+      <module name="logStarter" options="" />
       <module name="logstarter" options="" />
     </option>
   </component>
