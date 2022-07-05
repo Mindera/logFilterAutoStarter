@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="logfilter">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../logFilter/out/artifacts/logfilter_jar/logfilter.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
