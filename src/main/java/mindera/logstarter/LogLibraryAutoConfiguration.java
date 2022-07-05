@@ -17,7 +17,8 @@ public class LogLibraryAutoConfiguration {
     @Bean
     @ConditionalOnMissingBean
     public FilterRegistrationBean<RequestResponseLoggingFilter> loggingFilter(){
-        FilterRegistrationBean<RequestResponseLoggingFilter> registrationBean = new FilterRegistrationBean<>();
+        FilterRegistrationBean<RequestResponseLoggingFilter> registrationBean =
+                new FilterRegistrationBean<>();
 
         registrationBean.setFilter(new RequestResponseLoggingFilter());
         registrationBean.addUrlPatterns("/*");

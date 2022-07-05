@@ -5,7 +5,7 @@
 
     <groupId>mindera</groupId>
     <artifactId>logstarter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <description>Library that implements Log for REST API requests/responses</description>
 
     <properties>
@@ -25,7 +25,13 @@
         <dependency>
             <groupId>mindera</groupId>
             <artifactId>logstarter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.7.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -36,5 +42,18 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+    <plugins>
+
+    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.6.9-SNAPSHOT</version>
+    </plugin>
+
+    </plugins>
+    </build>
+
 
 </project>
