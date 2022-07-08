@@ -10,8 +10,7 @@ Spring Boot AutoStarter for the LogFilter.
 
 ## Install
 
-To use the LogFilter add it as an external library on your project.
-The .jar file is located in out/artifacts/logStarter_jar
+To use the LogStarter add it as an external library on your project.
 
 ## Authors
 
