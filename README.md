@@ -6,7 +6,7 @@ An library for logging servlet requests and responses with a Spring Boot AutoSta
 
 Spring Boot AutoStarter for the LogFilter. 
 
-- [LogFilter library](https://github.com/DiogoNoronha)
+- [LogFilter library](https://github.com/Mindera/logFilter)
 
 ## Install
 
