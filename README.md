@@ -10,7 +10,7 @@ Spring Boot AutoStarter for the LogFilter.
 
 ## Install
 
-To use the LogStarter add it as an external library on your project.
+- [To use the LogStarter add the dependency in the link to the POM of your project.](https://github.com/Mindera/logFilterAutoStarter/packages/1526139)
 
 ## Authors
 
