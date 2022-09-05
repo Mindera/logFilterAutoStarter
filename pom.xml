@@ -7,6 +7,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.1</version>
+        <relativePath/>
     </parent>
 
     <groupId>mindera</groupId>
@@ -40,23 +41,29 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.7.3</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.7.3</version>
         </dependency>
 
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.6</version>
+            <version>2.11.0</version>
         </dependency>
 
         <dependency>
             <groupId>mindera</groupId>
             <artifactId>logfilter</artifactId>
             <version>0.0.2-SNAPSHOT</version>
+            <type>jar</type>
+            <scope>system</scope>
+            <systemPath>/Users/alicjakropa/logFilter/target/logfilter-0.0.2-SNAPSHOT.jar</systemPath>
+
         </dependency>
 
     </dependencies>
