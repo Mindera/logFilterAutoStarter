@@ -11,7 +11,7 @@
 
     <groupId>mindera</groupId>
     <artifactId>logstarter</artifactId>
-    <version>0.0.12-SNAPSHOT</version>
+    <version>0.0.12</version>
     <name>logstarter</name>
     <packaging>jar</packaging>
     <description>AutoConfigure log for REST API requests/responses</description>
@@ -40,7 +40,7 @@
         <connection>scm:git:git://github.com/mindera/logFilterAutoStarter.git</connection>
         <developerConnection>scm:git:git://github.com/mindera/logFilterAutoStarter.git</developerConnection>
         <url>https://github.com/mindera/logFilterAutoStarter</url>
-      <tag>logstarter-0.0.12-SNAPSHOT</tag>
+      <tag>logstarter-0.0.12</tag>
     </scm>
 
     <dependencies>
