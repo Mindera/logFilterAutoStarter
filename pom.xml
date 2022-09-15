@@ -32,10 +32,17 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub Mindera Apache Maven Packages</name>
+            <name>GitHub mindera Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/Mindera/logFilterAutoStarter</url>
         </repository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:git:git://github.com/mindera/logFilterAutoStarter.git</connection>
+        <developerConnection>scm:git:git://github.com/mindera/logFilterAutoStarter.git</developerConnection>
+        <url>https://github.com/mindera/logFilterAutoStarter</url>
+        <tag>logFilterAutoStarter</tag>
+    </scm>
 
     <dependencies>
         <dependency>
@@ -59,12 +66,9 @@
         <dependency>
             <groupId>mindera</groupId>
             <artifactId>logfilter</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>/Users/alicjakropa/logFilter/target/logfilter-0.0.2-SNAPSHOT.jar</systemPath>
-
+            <version>0.0.3</version>
         </dependency>
+
 
     </dependencies>
 
@@ -75,10 +79,16 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.3</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M6</version>
+            </plugin>
 
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${project.parent.version}</version>
                 <configuration>
                     <skip>true</skip>
                 </configuration>

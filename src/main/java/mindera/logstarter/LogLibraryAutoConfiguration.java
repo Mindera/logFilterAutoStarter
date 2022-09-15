@@ -1,7 +1,5 @@
-//Copyright 2022 Mindera
+package mindera.logstarter;//Copyright 2022 Mindera
 //SPDX-License-Identifier: Apache-2.0
-
-package mindera.logstarter;
 
 import mindera.logfilter.service.RequestResponseLoggingFilter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
