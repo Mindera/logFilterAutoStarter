@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.1</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <groupId>mindera</groupId>
     <artifactId>logstarter</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
     <name>logstarter</name>
     <packaging>jar</packaging>
     <description>AutoConfigure log for REST API requests/responses</description>
@@ -41,7 +40,7 @@
         <connection>scm:git:git://github.com/mindera/logFilterAutoStarter.git</connection>
         <developerConnection>scm:git:git://github.com/mindera/logFilterAutoStarter.git</developerConnection>
         <url>https://github.com/mindera/logFilterAutoStarter</url>
-        <tag>logFilterAutoStarter</tag>
+        <tag>logstarter-0.0.5</tag>
     </scm>
 
     <dependencies>
