@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConditionalOnClass(RequestResponseLoggingFilter.class)
 public class LogLibraryAutoConfiguration {
-
     @Bean
     @ConditionalOnMissingBean
     public FilterRegistrationBean<RequestResponseLoggingFilter> loggingFilter(){
